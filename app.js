@@ -80,12 +80,13 @@ const oldObject = function(array) {
   return {
     firstValue: array[0],
     secondValue: array[1],
-    thirdValue: array[2]
+    thirdValue: array[2],
+    fourthValue: array[3]
   };
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Hello from the old object function', oldObject(['hi', 'hello', 'are you there?']));
+console.log('Hello from the old object function', oldObject(['hi', 'hello', 'are you there?', 'there you are!']));
 
 
 // STEP 9
